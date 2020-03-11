@@ -19,9 +19,9 @@ jobs:
       run: npm install
     - name: Deploy to GH Pages
       run: |
-        git config --global user.email "your_github_email>"
-        git config --global user.name "your_github_username>"
-        git remote set-url origin https://your_personal_access_token>@github.com/your_github_username>/your_repo>.git
+        git config --global user.email "natthapong41@gmail.com"
+        git config --global user.name "babe124578"
+        git remote set-url origin https://c44d1d0475e69892a9db0e6c31481e0d40b6c1f0@github.com/babe124578/social-dashboard.git
         npm run deploy
     - name: Updating Domain
       run: echo "Update domain"
